@@ -1,0 +1,64 @@
+.reg_title {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.reg_body {
+  background-color: #161616;
+  width: 350px;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.img_t {
+  padding: 0;
+  width: auto;
+}
+
+.modal-dialog {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-content {
+  border-radius: 10px;
+  width: 350px;
+}
+
+.reg_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inp_d {
+  background: #444;
+  display: flex;
+  align-items: center;
+}
+
+.inp_d:hover {
+  background: #555;
+  cursor: pointer;
+}
+
+.tri_t {
+  right: 220px;
+  transition: 1s ease;
+}
+
+@media (max-width: 1410px) {
+  .tri_t {
+    right: 120px;
+    transition: 1s ease;
+  }
+}
+
+@media (max-width: 700px) {
+  .tri_t {
+    right: 30px;
+    transition: 1s ease;
+  }
+}

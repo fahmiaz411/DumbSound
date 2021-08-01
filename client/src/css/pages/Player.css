@@ -1,0 +1,23 @@
+.player {
+}
+
+@media (max-width: 960px) {
+  .rhap_repeat-button {
+    font-size: 25px;
+    position: absolute;
+    left: 23%;
+    bottom: 15px;
+  }
+
+  .rhap_progress-bar {
+    top: 21px;
+  }
+
+  .rhap_time {
+    margin-top: 40px;
+  }
+
+  .rhap_volume-button {
+    font-size: 20px;
+  }
+}

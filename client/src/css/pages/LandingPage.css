@@ -1,0 +1,64 @@
+.lp_header {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  /* background: red; */
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lp_main {
+  background: #161616;
+  min-height: 100vh;
+}
+
+.lp_top {
+  /* background: white; */
+  height: 40vh;
+}
+
+.lp_bottom {
+  min-height: 60vh;
+  overflow: hidden;
+}
+
+.lp_login {
+  width: 100px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  margin: 10px 0;
+  transition: 0.3s ease;
+}
+
+.lp_login:hover {
+  border: 1px solid red;
+  color: red;
+  transition: 0.3s ease;
+}
+
+.lp_register {
+  width: 100px;
+}
+
+.lp_content {
+  padding: 10px 5%;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 960px) {
+  .lp_login {
+    width: 50px;
+  }
+
+  .lp_register {
+    width: 70px;
+  }
+}
